@@ -1,6 +1,6 @@
 {
 	"name": "@mypreview/unicorn-js-upsell",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Small components and scripts to display upsell (promotional) messages in WordPress.",
 	"keywords": [
 		"gutenberg",
@@ -67,7 +67,7 @@
 		"@emotion/babel-plugin-jsx-pragmatic": "0.2.0",
 		"@emotion/babel-preset-css-prop": "11.10.0",
 		"@emotion/react": "11.10.0",
-		"@wordpress/scripts": "23.7.1",
+		"@wordpress/scripts": "23.7.2",
 		"babel-loader": "8.2.5",
 		"cross-env": "7.0.3",
 		"husky": "8.0.1",
