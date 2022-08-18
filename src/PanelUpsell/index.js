@@ -19,7 +19,7 @@ import { __, sprintf } from '@wordpress/i18n';
  *
  * @private
  * @function
- * @since 	   1.0.0
+ * @since 	   1.0.1
  * @param      {Object}         props               Component properties.
  * @param  	   {string}     	props.pluginSlug    Plugin slug to leave rating/review on the plugin directory.
  * @param  	   {boolean}    	props.withDonate    Promo for outlining donation link/website.
@@ -51,7 +51,9 @@ function PanelUpsell( { pluginSlug, withDonate, withHireMe, withRate, ...otherPr
 					<p>
 						<strong>{ __( 'Need help customizing this plugin?' ) }</strong>
 						{ __( 'Get free of charge advice on what could be done or how complex different approaches are.' ) }
-						<ExternalLink href="https://mahdiyazdani.com">{ __( 'Start a consultation' ) }</ExternalLink>
+						<ExternalLink css={ { display: 'inline-block', width: '100%' } } href="https://mahdiyazdani.com">
+							{ __( 'Start a consultation' ) }
+						</ExternalLink>
 					</p>
 					<HorizontalRule />
 				</>
